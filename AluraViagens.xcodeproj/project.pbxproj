@@ -1,0 +1,628 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28B35F3027B6F3980029BF29 /* PacotesViagensView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B35F2F27B6F3970029BF29 /* PacotesViagensView.swift */; };
+		863B40B327B2DB6B005DCCEC /* MapaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863B40B227B2DB6B005DCCEC /* MapaView.swift */; };
+		8653C29527AD90FC00BCBDDB /* AluraViagensApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8653C29427AD90FC00BCBDDB /* AluraViagensApp.swift */; };
+		8653C29727AD90FC00BCBDDB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8653C29627AD90FC00BCBDDB /* ContentView.swift */; };
+		8653C29927AD90FF00BCBDDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8653C29827AD90FF00BCBDDB /* Assets.xcassets */; };
+		8653C29C27AD90FF00BCBDDB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8653C29B27AD90FF00BCBDDB /* Preview Assets.xcassets */; };
+		8653C2A627AD90FF00BCBDDB /* AluraViagensTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8653C2A527AD90FF00BCBDDB /* AluraViagensTests.swift */; };
+		8653C2B027AD90FF00BCBDDB /* AluraViagensUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8653C2AF27AD90FF00BCBDDB /* AluraViagensUITests.swift */; };
+		8653C2B227AD90FF00BCBDDB /* AluraViagensUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8653C2B127AD90FF00BCBDDB /* AluraViagensUITestsLaunchTests.swift */; };
+		869E154727ADC7B900AFDD7A /* viagens.json in Resources */ = {isa = PBXBuildFile; fileRef = 869E154627ADC7B900AFDD7A /* viagens.json */; };
+		869E154B27ADC7E000AFDD7A /* Dados.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869E154927ADC7E000AFDD7A /* Dados.swift */; };
+		869E154C27ADC7E000AFDD7A /* Viagem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869E154A27ADC7E000AFDD7A /* Viagem.swift */; };
+		86C9A5B027B1816400A80B9A /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C9A5AF27B1816400A80B9A /* HeaderView.swift */; };
+		86C9A5B227B18DE300A80B9A /* CelulaViagemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C9A5B127B18DE300A80B9A /* CelulaViagemView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8653C2A227AD90FF00BCBDDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8653C28927AD90FC00BCBDDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8653C29027AD90FC00BCBDDB;
+			remoteInfo = AluraViagens;
+		};
+		8653C2AC27AD90FF00BCBDDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8653C28927AD90FC00BCBDDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8653C29027AD90FC00BCBDDB;
+			remoteInfo = AluraViagens;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		28B35F2F27B6F3970029BF29 /* PacotesViagensView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PacotesViagensView.swift; sourceTree = "<group>"; };
+		863B40B227B2DB6B005DCCEC /* MapaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapaView.swift; sourceTree = "<group>"; };
+		8653C29127AD90FC00BCBDDB /* AluraViagens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AluraViagens.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8653C29427AD90FC00BCBDDB /* AluraViagensApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AluraViagensApp.swift; sourceTree = "<group>"; };
+		8653C29627AD90FC00BCBDDB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8653C29827AD90FF00BCBDDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8653C29B27AD90FF00BCBDDB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8653C2A127AD90FF00BCBDDB /* AluraViagensTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AluraViagensTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8653C2A527AD90FF00BCBDDB /* AluraViagensTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AluraViagensTests.swift; sourceTree = "<group>"; };
+		8653C2AB27AD90FF00BCBDDB /* AluraViagensUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AluraViagensUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8653C2AF27AD90FF00BCBDDB /* AluraViagensUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AluraViagensUITests.swift; sourceTree = "<group>"; };
+		8653C2B127AD90FF00BCBDDB /* AluraViagensUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AluraViagensUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		869E154627ADC7B900AFDD7A /* viagens.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = viagens.json; sourceTree = "<group>"; };
+		869E154927ADC7E000AFDD7A /* Dados.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dados.swift; sourceTree = "<group>"; };
+		869E154A27ADC7E000AFDD7A /* Viagem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Viagem.swift; sourceTree = "<group>"; };
+		86C9A5AF27B1816400A80B9A /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		86C9A5B127B18DE300A80B9A /* CelulaViagemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CelulaViagemView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8653C28E27AD90FC00BCBDDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8653C29E27AD90FF00BCBDDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8653C2A827AD90FF00BCBDDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8653C28827AD90FC00BCBDDB = {
+			isa = PBXGroup;
+			children = (
+				8653C29327AD90FC00BCBDDB /* AluraViagens */,
+				8653C2A427AD90FF00BCBDDB /* AluraViagensTests */,
+				8653C2AE27AD90FF00BCBDDB /* AluraViagensUITests */,
+				8653C29227AD90FC00BCBDDB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8653C29227AD90FC00BCBDDB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8653C29127AD90FC00BCBDDB /* AluraViagens.app */,
+				8653C2A127AD90FF00BCBDDB /* AluraViagensTests.xctest */,
+				8653C2AB27AD90FF00BCBDDB /* AluraViagensUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8653C29327AD90FC00BCBDDB /* AluraViagens */ = {
+			isa = PBXGroup;
+			children = (
+				86C9A5AE27B180EA00A80B9A /* Views */,
+				869E154827ADC7D300AFDD7A /* Models */,
+				869E154627ADC7B900AFDD7A /* viagens.json */,
+				8653C29427AD90FC00BCBDDB /* AluraViagensApp.swift */,
+				8653C29827AD90FF00BCBDDB /* Assets.xcassets */,
+				8653C29A27AD90FF00BCBDDB /* Preview Content */,
+			);
+			path = AluraViagens;
+			sourceTree = "<group>";
+		};
+		8653C29A27AD90FF00BCBDDB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8653C29B27AD90FF00BCBDDB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8653C2A427AD90FF00BCBDDB /* AluraViagensTests */ = {
+			isa = PBXGroup;
+			children = (
+				8653C2A527AD90FF00BCBDDB /* AluraViagensTests.swift */,
+			);
+			path = AluraViagensTests;
+			sourceTree = "<group>";
+		};
+		8653C2AE27AD90FF00BCBDDB /* AluraViagensUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8653C2AF27AD90FF00BCBDDB /* AluraViagensUITests.swift */,
+				8653C2B127AD90FF00BCBDDB /* AluraViagensUITestsLaunchTests.swift */,
+			);
+			path = AluraViagensUITests;
+			sourceTree = "<group>";
+		};
+		869E154827ADC7D300AFDD7A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				869E154927ADC7E000AFDD7A /* Dados.swift */,
+				869E154A27ADC7E000AFDD7A /* Viagem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		86C9A5AE27B180EA00A80B9A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8653C29627AD90FC00BCBDDB /* ContentView.swift */,
+				86C9A5AF27B1816400A80B9A /* HeaderView.swift */,
+				86C9A5B127B18DE300A80B9A /* CelulaViagemView.swift */,
+				863B40B227B2DB6B005DCCEC /* MapaView.swift */,
+				28B35F2F27B6F3970029BF29 /* PacotesViagensView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8653C29027AD90FC00BCBDDB /* AluraViagens */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8653C2B527AD90FF00BCBDDB /* Build configuration list for PBXNativeTarget "AluraViagens" */;
+			buildPhases = (
+				8653C28D27AD90FC00BCBDDB /* Sources */,
+				8653C28E27AD90FC00BCBDDB /* Frameworks */,
+				8653C28F27AD90FC00BCBDDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AluraViagens;
+			productName = AluraViagens;
+			productReference = 8653C29127AD90FC00BCBDDB /* AluraViagens.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8653C2A027AD90FF00BCBDDB /* AluraViagensTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8653C2B827AD90FF00BCBDDB /* Build configuration list for PBXNativeTarget "AluraViagensTests" */;
+			buildPhases = (
+				8653C29D27AD90FF00BCBDDB /* Sources */,
+				8653C29E27AD90FF00BCBDDB /* Frameworks */,
+				8653C29F27AD90FF00BCBDDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8653C2A327AD90FF00BCBDDB /* PBXTargetDependency */,
+			);
+			name = AluraViagensTests;
+			productName = AluraViagensTests;
+			productReference = 8653C2A127AD90FF00BCBDDB /* AluraViagensTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8653C2AA27AD90FF00BCBDDB /* AluraViagensUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8653C2BB27AD90FF00BCBDDB /* Build configuration list for PBXNativeTarget "AluraViagensUITests" */;
+			buildPhases = (
+				8653C2A727AD90FF00BCBDDB /* Sources */,
+				8653C2A827AD90FF00BCBDDB /* Frameworks */,
+				8653C2A927AD90FF00BCBDDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8653C2AD27AD90FF00BCBDDB /* PBXTargetDependency */,
+			);
+			name = AluraViagensUITests;
+			productName = AluraViagensUITests;
+			productReference = 8653C2AB27AD90FF00BCBDDB /* AluraViagensUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8653C28927AD90FC00BCBDDB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					8653C29027AD90FC00BCBDDB = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					8653C2A027AD90FF00BCBDDB = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 8653C29027AD90FC00BCBDDB;
+					};
+					8653C2AA27AD90FF00BCBDDB = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 8653C29027AD90FC00BCBDDB;
+					};
+				};
+			};
+			buildConfigurationList = 8653C28C27AD90FC00BCBDDB /* Build configuration list for PBXProject "AluraViagens" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8653C28827AD90FC00BCBDDB;
+			productRefGroup = 8653C29227AD90FC00BCBDDB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8653C29027AD90FC00BCBDDB /* AluraViagens */,
+				8653C2A027AD90FF00BCBDDB /* AluraViagensTests */,
+				8653C2AA27AD90FF00BCBDDB /* AluraViagensUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8653C28F27AD90FC00BCBDDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8653C29C27AD90FF00BCBDDB /* Preview Assets.xcassets in Resources */,
+				8653C29927AD90FF00BCBDDB /* Assets.xcassets in Resources */,
+				869E154727ADC7B900AFDD7A /* viagens.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8653C29F27AD90FF00BCBDDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8653C2A927AD90FF00BCBDDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8653C28D27AD90FC00BCBDDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86C9A5B027B1816400A80B9A /* HeaderView.swift in Sources */,
+				863B40B327B2DB6B005DCCEC /* MapaView.swift in Sources */,
+				28B35F3027B6F3980029BF29 /* PacotesViagensView.swift in Sources */,
+				869E154C27ADC7E000AFDD7A /* Viagem.swift in Sources */,
+				8653C29727AD90FC00BCBDDB /* ContentView.swift in Sources */,
+				869E154B27ADC7E000AFDD7A /* Dados.swift in Sources */,
+				8653C29527AD90FC00BCBDDB /* AluraViagensApp.swift in Sources */,
+				86C9A5B227B18DE300A80B9A /* CelulaViagemView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8653C29D27AD90FF00BCBDDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8653C2A627AD90FF00BCBDDB /* AluraViagensTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8653C2A727AD90FF00BCBDDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8653C2B227AD90FF00BCBDDB /* AluraViagensUITestsLaunchTests.swift in Sources */,
+				8653C2B027AD90FF00BCBDDB /* AluraViagensUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8653C2A327AD90FF00BCBDDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8653C29027AD90FC00BCBDDB /* AluraViagens */;
+			targetProxy = 8653C2A227AD90FF00BCBDDB /* PBXContainerItemProxy */;
+		};
+		8653C2AD27AD90FF00BCBDDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8653C29027AD90FC00BCBDDB /* AluraViagens */;
+			targetProxy = 8653C2AC27AD90FF00BCBDDB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8653C2B327AD90FF00BCBDDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8653C2B427AD90FF00BCBDDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8653C2B627AD90FF00BCBDDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AluraViagens/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sangali.com.AluraViagens;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8653C2B727AD90FF00BCBDDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AluraViagens/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sangali.com.AluraViagens;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8653C2B927AD90FF00BCBDDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sangali.com.AluraViagensTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AluraViagens.app/AluraViagens";
+			};
+			name = Debug;
+		};
+		8653C2BA27AD90FF00BCBDDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sangali.com.AluraViagensTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AluraViagens.app/AluraViagens";
+			};
+			name = Release;
+		};
+		8653C2BC27AD90FF00BCBDDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sangali.com.AluraViagensUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AluraViagens;
+			};
+			name = Debug;
+		};
+		8653C2BD27AD90FF00BCBDDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sangali.com.AluraViagensUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AluraViagens;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8653C28C27AD90FC00BCBDDB /* Build configuration list for PBXProject "AluraViagens" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8653C2B327AD90FF00BCBDDB /* Debug */,
+				8653C2B427AD90FF00BCBDDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8653C2B527AD90FF00BCBDDB /* Build configuration list for PBXNativeTarget "AluraViagens" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8653C2B627AD90FF00BCBDDB /* Debug */,
+				8653C2B727AD90FF00BCBDDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8653C2B827AD90FF00BCBDDB /* Build configuration list for PBXNativeTarget "AluraViagensTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8653C2B927AD90FF00BCBDDB /* Debug */,
+				8653C2BA27AD90FF00BCBDDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8653C2BB27AD90FF00BCBDDB /* Build configuration list for PBXNativeTarget "AluraViagensUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8653C2BC27AD90FF00BCBDDB /* Debug */,
+				8653C2BD27AD90FF00BCBDDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8653C28927AD90FC00BCBDDB /* Project object */;
+}
